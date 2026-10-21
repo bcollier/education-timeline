@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Education Timeline</title>
+  <meta name="description" content="Every course Ben Collier has taken, from a PhD at Carnegie Mellon back to his first semester at UW–Whitewater in fall 2000.">
+  <meta name="theme-color" content="#22302b">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Kalam:wght@400;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Young+Serif&display=swap">
+  <link rel="stylesheet" href="css/timeline.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#views">Skip to the courses</a>
+
+  <main class="sheet" id="top">
+    <div class="sheet-head" aria-label="Notebook page header">
+      <span class="field">Subject <span class="val">Coursework</span></span>
+      <span class="field">Name <span class="val">Ben Collier</span></span>
+      <span class="field">Dates <span class="val">Fall 2000 &rarr; Fall 2012</span></span>
+    </div>
+
+    <header class="page-head">
+      <span class="stamp" style="--rot:-3deg">Course record</span>
+      <h1>Every class I've taken, <span class="u">back to day one</span></h1>
+      <p class="lede">From the last dissertation term at Carnegie Mellon in fall 2012, back through an MBA at UW–Madison, to my first semester at UW–Whitewater in fall 2000. Newest at the top.</p>
+      <aside class="sticky privacy" style="--rot:2.5deg" aria-label="About the materials links">
+        <span class="tape tc" aria-hidden="true"></span>
+        <span class="big">Note to self</span>
+        The <strong>My materials</strong> links open my private Google Drive, so they only work for me. Everyone else gets the course list, instructors and descriptions.
+      </aside>
+    </header>
+
+    <section class="degrees" aria-labelledby="degrees-h">
+      <h2 id="degrees-h" class="sr-only">Degrees at a glance</h2>
+      <p class="note tally" id="tally" aria-live="polite"></p>
+      <div class="strip" id="strip"></div>
+    </section>
+
+    <section class="controls" id="views" aria-label="Find a course">
+      <div class="view-tabs" role="tablist" aria-label="View">
+        <button role="tab" id="tab-timeline" aria-controls="timeline" aria-selected="true" data-view="timeline"><svg viewBox="0 0 24 24" aria-hidden="true" class="ui" data-ui="timeline"></svg>Timeline</button>
+        <button role="tab" id="tab-table" aria-controls="table" aria-selected="false" data-view="table" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="ui" data-ui="list"></svg>Table</button>
+      </div>
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="ui" data-ui="search"></svg>
+        <span class="sr-only">Search courses</span>
+        <input id="q" type="search" placeholder="Search a code, title, instructor or topic" autocomplete="off">
+      </label>
+      <div class="chip-row" id="school-chips" role="group" aria-label="Filter by school"></div>
+      <div class="chip-row" id="subject-chips" role="group" aria-label="Filter by subject"></div>
+      <p class="result-count" id="count" aria-live="polite"></p>
+    </section>
+
+    <section id="timeline" class="timeline" role="tabpanel" aria-labelledby="tab-timeline"></section>
+
+    <section id="table" class="table-wrap" role="tabpanel" aria-labelledby="tab-table" hidden>
+      <table class="course-table">
+        <caption class="sr-only">All courses, newest first</caption>
+        <thead>
+          <tr><th scope="col">Term</th><th scope="col">School</th><th scope="col">Code</th><th scope="col">Title</th><th scope="col">Instructor</th><th scope="col">Materials</th></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+
+    <p class="empty" id="empty" hidden>Nothing matches that. Try a shorter search or clear a filter.</p>
+
+    <section class="loose" aria-labelledby="loose-h">
+      <h2 id="loose-h">Loose papers</h2>
+      <p class="muted">Course folders in my Drive that I couldn't tie to a single line on a transcript, kept here so they're one click away.</p>
+      <ul class="loose-list" id="loose"></ul>
+    </section>
+
+    <footer class="sheet-foot">
+      <p><strong>Sources.</strong> Course codes, titles and terms come from my official transcripts; instructors and descriptions come from syllabi and course folders in my Drive. Where I had no syllabus, the description is a short catalog-style summary and is marked that way. No grades are recorded anywhere on this page or in its data.</p>
+      <p>Logos identify each school and come from Wikimedia Commons; see <a href="CREDITS.md">CREDITS.md</a>. Data lives in <a href="data/courses.json">data/courses.json</a>.</p>
+      <p><a href="#top" class="go">Back to the top</a></p>
+    </footer>
+  </main>
+
+  <noscript><p class="noscript">This page builds its timeline with JavaScript. The raw list is in <a href="data/courses.json">data/courses.json</a>.</p></noscript>
+  <script src="js/icons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
