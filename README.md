@@ -2,7 +2,7 @@
 
 A single static page listing every course Ben Collier has taken, newest first, from the last PhD dissertation term at Carnegie Mellon (fall 2012) back to his first semester of college at UW–Whitewater (fall 2000). There is also a short section of online courses at the end.
 
-- **Timeline view:** courses grouped by degree, then by semester, on a vertical pen line. Each course is an index card with a subject icon, the code and title, the term, the instructor when known, a one-paragraph description, and a **My materials** link to the course folder in Ben's Google Drive.
+- **Timeline view:** courses grouped by degree, then by semester, on a vertical pen line. Each course is a one-line slip (subject icon, code, title, instructor) that swells like a dock icon as it passes a reading line 40% down the screen or sits under the mouse. On wide screens the slip under focus drops its full index card into a sticky panel beside the list: the term, the instructor, a one-paragraph description and a **My materials** link to the course folder in Ben's Google Drive. On narrower screens, tap a slip to unfold its card in place. Reduced-motion settings turn the magnification off.
 - **Table view:** the same data as a compact table (term, school, code, title, instructor, materials link).
 - **Filters:** search, school chips, subject chips and a "Has my materials" toggle. All of them apply to both views.
 
@@ -50,7 +50,8 @@ Each course:
 | --- | --- |
 | `id` | stable slug (`school-code-term`), also the card's HTML anchor |
 | `degree` | `phd`, `ms`, `mba`, `bba` or `online` |
-| `school` | key into `schools` (`cmu`, `pitt`, `uwm`, `uww`, `uwo`, `matc`, `coursera`, `online`) |
+| `school` | key into `schools` (`cmu`, `pitt`, `uwm`, `uww`, `uwo`, `matc`, `jhu`) |
+| `platform`, `series` | online courses only: where it ran (`Coursera`) and the program it belongs to; the card leads with the university and puts these in small print |
 | `term` | e.g. `Fall 2010`; transfer credit uses `Transfer credit, posted Fall 2000`; online courses use a year or `Undated` |
 | `term_sort` | year × 10 + season (spring 1, summer 2, fall 3); used for ordering |
 | `code` | course code as on the transcript (empty for online courses) |

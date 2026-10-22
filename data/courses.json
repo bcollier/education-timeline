@@ -54,21 +54,12 @@
       "wordmark": "MATC",
       "color": "#00563f"
     },
-    "coursera": {
-      "name": "Coursera",
-      "short": "Coursera",
-      "unit": "Online, non-credit",
-      "logo": "",
-      "wordmark": "Coursera",
-      "color": "#0056d2"
-    },
-    "online": {
-      "name": "Online course",
-      "short": "Online",
-      "unit": "Online, non-credit",
-      "logo": "",
-      "wordmark": "Online",
-      "color": "#4a5463"
+    "jhu": {
+      "name": "Johns Hopkins University",
+      "short": "Johns Hopkins",
+      "unit": "Online through Coursera, non-credit",
+      "logo": "assets/logos/johns-hopkins.png",
+      "color": "#002d72"
     }
   },
   "degrees": [
@@ -115,12 +106,12 @@
     {
       "id": "online",
       "label": "Online",
-      "title": "Online courses and certificates",
-      "school": "coursera",
+      "title": "Online courses",
+      "school": "jhu",
       "year": 2015,
-      "field": "Data science, biostatistics and teaching",
+      "field": "Data science, biostatistics and college teaching",
       "span": "2014 to 2015",
-      "note": "Non-credit courses taken while on the faculty."
+      "note": "Non-credit courses from Johns Hopkins on Coursera, taken while on the faculty."
     }
   ],
   "subjects": {
@@ -1893,7 +1884,7 @@
     {
       "id": "coursera-exploratory-data-analysis-2015",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "2015",
       "term_sort": 20150,
       "code": "",
@@ -1902,15 +1893,17 @@
       "kind": "online",
       "instructor": "Jeff Leek, Roger Peng and Brian Caffo",
       "instructor_source": "certificate",
-      "description": "Part of the Johns Hopkins Data Science Specialization on Coursera, a four-week, non-credit online course. It covers summarizing data and making exploratory graphs in R before formal modeling.",
+      "description": "Summarizing data and making exploratory graphs in R before any formal modeling: base, lattice and ggplot2 plotting, clustering, and dimension reduction to see the structure in a dataset.",
       "description_source": "general",
       "materials_url": "https://drive.google.com/drive/folders/1cg9ngzmKg-rB77nF3z2dCpwNlfGJbFKi",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": "Data Science Specialization"
     },
     {
       "id": "coursera-getting-and-cleaning-data-2015",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "2015",
       "term_sort": 20150,
       "code": "",
@@ -1919,15 +1912,17 @@
       "kind": "online",
       "instructor": "Jeff Leek, Roger Peng and Brian Caffo",
       "instructor_source": "certificate",
-      "description": "Part of the Johns Hopkins Data Science Specialization on Coursera, a four-week, non-credit online course. It covers reading data from files, databases and the web, and tidying it for analysis in R.",
+      "description": "Getting data out of files, databases, APIs and the web, and tidying it for analysis in R, with the principles of tidy data and a reproducible cleaning script as the course project.",
       "description_source": "general",
       "materials_url": "https://drive.google.com/drive/folders/1aTUxPxe1KTLPfshjW5ZDiXunTrjDWqR-",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": "Data Science Specialization"
     },
     {
       "id": "coursera-r-programming-2015",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "2015",
       "term_sort": 20150,
       "code": "",
@@ -1936,15 +1931,17 @@
       "kind": "online",
       "instructor": "Jeff Leek, Roger Peng and Brian Caffo",
       "instructor_source": "certificate",
-      "description": "Part of the Johns Hopkins Data Science Specialization on Coursera, a four-week, non-credit online course. It teaches programming in R: data types, control structures, functions, scoping and debugging.",
+      "description": "Programming in R: data types, control structures, functions, scoping rules, loop functions, and debugging and profiling code.",
       "description_source": "general",
       "materials_url": "https://drive.google.com/drive/folders/1_8HXlp4oR-CtHBfTPdwkB7PIY-1nFJP_",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": "Data Science Specialization"
     },
     {
       "id": "coursera-the-data-scientist-s-toolbox-2015",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "2015",
       "term_sort": 20150,
       "code": "",
@@ -1953,15 +1950,17 @@
       "kind": "online",
       "instructor": "Jeff Leek, Roger Peng and Brian Caffo",
       "instructor_source": "certificate",
-      "description": "Part of the Johns Hopkins Data Science Specialization on Coursera, a four-week, non-credit online course. It introduces the tools of the specialization: R, RStudio, Git and GitHub, and the questions data scientists ask.",
+      "description": "The opening course of the specialization. It sets up the tools used in the rest of it, R, RStudio, Git and GitHub, and the kinds of questions data scientists ask.",
       "description_source": "general",
       "materials_url": "https://drive.google.com/drive/folders/1_h03hjWlDHoqMjP91_3TEaBQB7EowK5t",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": "Data Science Specialization"
     },
     {
       "id": "online-university-teaching-101-2015",
       "degree": "online",
-      "school": "online",
+      "school": "jhu",
       "term": "2015",
       "term_sort": 20150,
       "code": "",
@@ -1970,44 +1969,50 @@
       "kind": "online",
       "instructor": "",
       "instructor_source": "",
-      "description": "An online course on the basics of college teaching, from planning a course to active learning and assessment. The folder holds the course quizzes.",
+      "description": "The basics of college teaching, from planning a course and writing objectives to active learning, using a learning management system, and assessment. The folder holds the course quizzes.",
       "description_source": "general",
       "materials_url": "https://drive.google.com/drive/folders/14SFDRioKWJf8oVl5WeNyNz0esceqlEhl",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": ""
     },
     {
       "id": "coursera-biostatistics-bootcamp-2014",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "2014",
       "term_sort": 20140,
       "code": "",
-      "title": "Biostatistics Bootcamp",
+      "title": "Mathematical Biostatistics Boot Camp 1",
       "subject": "probability",
       "kind": "online",
-      "instructor": "",
-      "instructor_source": "",
-      "description": "An online biostatistics course on Coursera. The module quizzes in the folder cover probability and expectations, conditional probability and Bayes' rule, confidence intervals and the bootstrap, and binomial proportions.",
+      "instructor": "Brian Caffo",
+      "instructor_source": "course materials",
+      "description": "A mathematically minded introduction to biostatistics. The module quizzes in the folder cover probability and expectations, conditional probability and Bayes' rule, confidence intervals and the bootstrap, and binomial proportions.",
       "description_source": "materials",
       "materials_url": "https://drive.google.com/drive/folders/1VprwRSdT7g-XX-1Kpr0ZQ4ViXbqHZd5E",
-      "materials_note": "Dated from a file downloaded in March 2014."
+      "materials_note": "Dated from a file downloaded in March 2014.",
+      "platform": "Coursera",
+      "series": ""
     },
     {
       "id": "coursera-biostatistics-bootcamp-2-undated",
       "degree": "online",
-      "school": "coursera",
+      "school": "jhu",
       "term": "Undated",
       "term_sort": 0,
       "code": "",
-      "title": "Biostatistics Bootcamp 2",
+      "title": "Mathematical Biostatistics Boot Camp 2",
       "subject": "statistics",
       "kind": "online",
-      "instructor": "",
-      "instructor_source": "",
-      "description": "The second part of the Coursera biostatistics bootcamp, continuing into statistical inference. The folder holds lecture videos, a module quiz and R code.",
+      "instructor": "Brian Caffo",
+      "instructor_source": "course materials",
+      "description": "The second half of the boot camp, continuing into statistical inference. The folder holds lecture videos, a module quiz and R code.",
       "description_source": "materials",
       "materials_url": "https://drive.google.com/drive/folders/1ugXIt39hupabN8keLuInaH50-ektecSa",
-      "materials_note": ""
+      "materials_note": "",
+      "platform": "Coursera",
+      "series": ""
     }
   ],
   "loose_folders": [
