@@ -480,10 +480,10 @@
       "kind": "course",
       "instructor": "",
       "instructor_source": "",
-      "description": "A doctoral seminar in organization theory, the macro side of organizational behavior. Courses like this survey how organizations are structured, how they relate to their environments, and the main theoretical traditions used to explain them.",
-      "description_source": "general",
-      "materials_url": "",
-      "materials_note": "Possible folders: Org Behavior - Macro or OB Research II (see Loose papers).",
+      "description": "The spring research seminar for first-year OB doctoral students, built around guest faculty talking about their own research and careers. Recurring themes were hard work and luck, learning from setbacks, what makes a good doctoral student, and how good researchers innovate on methods as well as theory.",
+      "description_source": "materials",
+      "materials_url": "https://drive.google.com/drive/folders/1JBwPfxZZBz6mfhEqh-kdiVZSVlRdL1Fo",
+      "materials_note": "My folder calls this class OB Research II, and my reflection paper is dated May 2008, the only spring OB seminar on the transcript.",
       "transcript_title": "SMNR ORGNZTL THRY II"
     },
     {
@@ -565,15 +565,15 @@
       "term": "Fall 2007",
       "term_sort": 20073,
       "code": "47-892",
-      "title": "Seminar in Organizational Behavior",
+      "title": "Seminar in Organizational Behavior (Macro)",
       "subject": "org-behavior",
       "kind": "course",
       "instructor": "",
       "instructor_source": "",
-      "description": "One of two first-year doctoral seminars in organizational behavior. Seminars like this survey the classic and current research on individuals, groups and organizations through weekly readings, written critiques and discussion.",
-      "description_source": "general",
-      "materials_url": "",
-      "materials_note": "Two seminars share this title on the transcript, so no folder is matched (see Loose papers).",
+      "description": "The macro side of the first-year doctoral seminar, focused on organization theory. It started with what makes a good theory, then covered population ecology and organizational learning, with written reviews of assigned papers. My final paper and talk looked at routines and knowledge transfer in open source software projects.",
+      "description_source": "materials",
+      "materials_url": "https://drive.google.com/drive/folders/1MSkC4f58udpDDWk9Cw-Q7OIzCiWIJxwq",
+      "materials_note": "Both Fall 2007 seminars carry the same title on the transcript. My papers show one was micro and one macro, but not which course number was which.",
       "transcript_title": "SMNR ORGNZTL BHAVIOR"
     },
     {
@@ -583,15 +583,15 @@
       "term": "Fall 2007",
       "term_sort": 20073,
       "code": "47-890",
-      "title": "Seminar in Organizational Behavior",
+      "title": "Seminar in Organizational Behavior (Micro)",
       "subject": "org-behavior",
       "kind": "course",
       "instructor": "",
       "instructor_source": "",
-      "description": "One of two first-year doctoral seminars in organizational behavior. Seminars like this survey the classic and current research on individuals, groups and organizations through weekly readings, written critiques and discussion.",
-      "description_source": "general",
-      "materials_url": "",
-      "materials_note": "Two seminars share this title on the transcript, so no folder is matched (see Loose papers).",
+      "description": "The micro side of the first-year doctoral seminar in organizational behavior. It opened by asking what OB is and how the field has changed, then worked through weekly readings on how people think and act at work. My papers were a critical review of research on identity and attachment at work, and a final paper and talk on role theory and role transitions.",
+      "description_source": "materials",
+      "materials_url": "https://drive.google.com/drive/folders/1bvrgJEHqqb6rD7WAfncnn7CWr9a0ZWin",
+      "materials_note": "Both Fall 2007 seminars carry the same title on the transcript. My papers show one was micro and one macro, but not which course number was which.",
       "transcript_title": "SMNR ORGNZTL BHAVIOR"
     },
     {
@@ -2011,21 +2011,6 @@
     }
   ],
   "loose_folders": [
-    {
-      "title": "Org Behavior - Micro",
-      "url": "https://drive.google.com/drive/folders/1bvrgJEHqqb6rD7WAfncnn7CWr9a0ZWin",
-      "note": "CMU doctoral OB seminar (identity, roles, role transitions). Likely 47-890 or 47-892, Fall 2007."
-    },
-    {
-      "title": "Org Behavior - Macro",
-      "url": "https://drive.google.com/drive/folders/1MSkC4f58udpDDWk9Cw-Q7OIzCiWIJxwq",
-      "note": "CMU organization theory seminar (population ecology, organizational learning). Likely 47-891, 47-890 or 47-892."
-    },
-    {
-      "title": "OB Research II",
-      "url": "https://drive.google.com/drive/folders/1JBwPfxZZBz6mfhEqh-kdiVZSVlRdL1Fo",
-      "note": "CMU guest-speaker research seminar. Not matched to a transcript line."
-    },
     {
       "title": "OB Research Methods",
       "url": "https://drive.google.com/drive/folders/1Bo-I68VIzyvHvwYDMdpNBfTPsUocQ8dQ",
