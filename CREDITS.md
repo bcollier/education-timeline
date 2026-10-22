@@ -11,8 +11,9 @@ The logos identify each school. They are trademarks of their institutions and ar
 | `assets/logos/carnegie-mellon.svg` | [File:Carnegie Mellon wordmark.svg](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_wordmark.svg) | Public domain; trademarked |
 | `assets/logos/pitt.svg` | [File:University of Pittsburgh shield mark.svg](https://commons.wikimedia.org/wiki/File:University_of_Pittsburgh_shield_mark.svg) | Public domain |
 | `assets/logos/uw-oshkosh.png` | [File:UW Oshkosh logo.png](https://commons.wikimedia.org/wiki/File:UW_Oshkosh_logo.png) | Public domain; trademarked |
+| `assets/logos/johns-hopkins.png` | [File:Johns Hopkins University logo.png](https://commons.wikimedia.org/wiki/File:Johns_Hopkins_University_logo.png) | Public domain; trademarked |
 
-Madison Area Technical College, Coursera and the generic online badge are plain CSS wordmark badges in each school's colour; no logo file is used for them.
+Madison Area Technical College is a plain CSS wordmark badge in its school colour; no logo file is used for it.
 
 ## Fonts and styling
 
